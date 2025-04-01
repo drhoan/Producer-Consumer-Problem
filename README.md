@@ -22,9 +22,12 @@ You need to implement a bounded buffer where multiple producers generate data an
 
 6. Ensure no race conditions or deadlocks.
 
-## To do: 
+## Student tasks: 
 - Filling in the missing wait and signal statements in the given placeholders.
 - Observe behavior before and after synchronization.
+- Compile and run the program:
+    `gcc producer_consumer.c -o producer_consumer -pthread`
+    `./producer_consumer`
 
 ## Expected Learning Outcomes:
 - Understanding how condition variables synchronize threads.
