@@ -26,7 +26,7 @@ You need to implement a bounded buffer where multiple producers generate data an
 - Filling in the missing wait and signal statements in the given placeholders.
 - Observe behavior before and after synchronization.
 - Compile and run the program:
-    `gcc producer_consumer.c -o producer_consumer -pthread`
+    `gcc producer_consumer.c -o producer_consumer -pthread` and 
     `./producer_consumer`
 
 ## Expected Learning Outcomes:
